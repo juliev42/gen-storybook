@@ -12,6 +12,10 @@ defineProps<{
       and then click the button to begin your story!
     </h3>
   </div>
+
+  <div class="wrapper">
+    <button class="button" @click="startStory">Start Story</button>
+  </div>
 </template>
 
 <style scoped>
