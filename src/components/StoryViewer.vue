@@ -30,7 +30,7 @@ export default{
 
             const response = await openai.createCompletion({
                 model: "text-davinci-003",
-                prompt: "Once upon a time, there was a rabbit named Cornelious. Tell us about Cornelious. Max tokens is 200.",
+                prompt: "Once upon a time, there was a dog named Cornelious. Tell us about Cornelious. Max tokens is 200.",
                 max_tokens: 200,
                 temperature: 0,
                 });
